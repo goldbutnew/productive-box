@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: maxam2017/d14c1aeba4558bfbc883c9b8ab15bd0d
+        uses: https://gist.github.com/goldbutnew/d14c1aeba4558bfbc883c9b8ab15bd0d
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
